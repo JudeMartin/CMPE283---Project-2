@@ -1,0 +1,46 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmon_2816.trc
+Mon Sep 12 21:37:54 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1644M/2998M, Ph+PgF:3946M/5995M, VA:1103M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 11
+
+Windows thread id: 2816, image: ORACLE.EXE (MMON)
+
+
+*** 2011-09-12 21:37:54.682
+*** SERVICE NAME:(SYS$BACKGROUND) 2011-09-12 21:37:51.515
+*** SESSION ID:(40.1) 2011-09-12 21:37:51.515
+ktsmgtur(): TUR was not tuned for 1738 secs
+ktsmg_advance_slot(): MMNL advances slot after 1909 seconds
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmon_2816.trc
+Tue Sep 13 22:22:45 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1861M/2998M, Ph+PgF:3955M/5995M, VA:1101M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 11
+
+Windows thread id: 2816, image: ORACLE.EXE (MMON)
+
+
+*** 2011-09-13 22:22:45.916
+*** SERVICE NAME:(SYS$BACKGROUND) 2011-09-13 22:22:44.721
+*** SESSION ID:(40.1) 2011-09-13 22:22:44.721
+ktsmgtur(): TUR was not tuned for 2262 secs
+ktsmg_advance_slot(): MMNL advances slot after 2716 seconds

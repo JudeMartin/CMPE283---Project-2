@@ -1,0 +1,54 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2752.trc
+Tue Feb 28 15:11:57 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2210M/2998M, Ph+PgF:4355M/5995M, VA:1108M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2752, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-02-28 15:11:57.524
+*** SESSION ID:(38.1) 2012-02-28 15:11:57.524
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 597, block 2, scn 14268329
+  cache-low rba: logseq 597, block 3134
+    on-disk rba: logseq 597, block 4221, scn 14272298
+  start recovery at logseq 597, block 3134, scn 0
+*** 2012-02-28 15:12:03.624
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 543Kb in 0.84s => 0.63 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 10Kb, moves: 0/757 (0%)
+Change moves: 1/29 (3%), moved: 0Mb
+Longest LWN: 263Kb, moves: 0/47 (0%), moved: 0Mb
+Last redo scn: 0x0000.00d9c729 (14272297)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 241/241 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1238/1523 = 0.8
+----------------------------------------------
+*** 2012-02-28 15:12:03.764
+KCRA: start recovery claims for 241 data blocks
+*** 2012-02-28 15:12:03.764
+KCRA: blocks processed = 241/241, claimed = 241, eliminated = 0
+*** 2012-02-28 15:12:04.094
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 597 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 241/241 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1270/1479 = 0.9
+----------------------------------------------

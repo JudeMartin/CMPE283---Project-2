@@ -1,0 +1,107 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2348.trc
+Sun Jul 17 17:45:29 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2429M/2998M, Ph+PgF:4689M/5995M, VA:1113M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2348, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-07-17 17:45:29.388
+*** SESSION ID:(38.1) 2011-07-17 17:45:29.388
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 170, block 2, scn 4190520
+  cache-low rba: logseq 170, block 5850
+    on-disk rba: logseq 170, block 5963, scn 4194514
+  start recovery at logseq 170, block 5850, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 56Kb in 3.08s => 0.02 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 2Kb, moves: 0/177 (0%)
+Change moves: 8/81 (9%), moved: 0Mb
+Longest LWN: 13Kb, moves: 0/20 (0%), moved: 0Mb
+Last redo scn: 0x0000.004000d1 (4194513)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 30/30 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 174/384 = 0.5
+----------------------------------------------
+*** 2011-07-17 17:45:36.610
+KCRA: start recovery claims for 30 data blocks
+*** 2011-07-17 17:45:36.610
+KCRA: blocks processed = 30/30, claimed = 30, eliminated = 0
+*** 2011-07-17 17:45:36.657
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 170 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 30/30 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 169/204 = 0.8
+----------------------------------------------
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2348.trc
+Thu Apr 19 21:53:36 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2284M/2998M, Ph+PgF:4450M/5995M, VA:1108M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2348, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-04-19 21:53:36.537
+*** SESSION ID:(38.1) 2012-04-19 21:53:36.537
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 719, block 2, scn 17325226
+  cache-low rba: logseq 719, block 1019
+    on-disk rba: logseq 719, block 2443, scn 17326651
+  start recovery at logseq 719, block 1019, scn 0
+*** 2012-04-19 21:53:46.116
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 712Kb in 0.42s => 1.66 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 8Kb, moves: 0/1410 (0%)
+Change moves: 11/126 (8%), moved: 0Mb
+Longest LWN: 238Kb, moves: 0/157 (0%), moved: 0Mb
+Last redo scn: 0x0000.0108623a (17326650)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 296/296 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 2247/2801 = 0.8
+----------------------------------------------
+*** 2012-04-19 21:53:46.131
+KCRA: start recovery claims for 296 data blocks
+*** 2012-04-19 21:53:46.131
+KCRA: blocks processed = 296/296, claimed = 296, eliminated = 0
+*** 2012-04-19 21:53:46.818
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 719 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 296/296 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 2379/2542 = 0.9
+----------------------------------------------

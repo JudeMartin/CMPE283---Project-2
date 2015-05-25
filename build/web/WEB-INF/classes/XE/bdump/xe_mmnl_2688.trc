@@ -1,0 +1,26 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmnl_2688.trc
+Mon Mar 19 14:56:25 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1586M/2998M, Ph+PgF:3542M/5995M, VA:1091M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 12
+
+Windows thread id: 2688, image: ORACLE.EXE (MMNL)
+
+
+*** 2012-03-19 14:56:25.678
+*** SERVICE NAME:(SYS$BACKGROUND) 2012-03-19 14:56:25.676
+*** SESSION ID:(39.1) 2012-03-19 14:56:25.676
+ktsmgtur(): TUR was not tuned for 678 secs
+*** 2012-03-19 15:03:37.669
+ktsmgtur(): TUR was not tuned for 372 secs
+*** 2012-03-19 15:29:18.685
+ktsmgtur(): TUR was not tuned for 1001 secs

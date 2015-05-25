@@ -1,0 +1,22 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_j000_3140.trc
+Tue Apr 17 10:17:31 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1665M/2998M, Ph+PgF:3670M/5995M, VA:1090M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 18
+
+Windows thread id: 3140, image: ORACLE.EXE (J000)
+
+
+*** 2012-04-17 10:17:31.592
+*** SERVICE NAME:(SYS$USERS) 2012-04-17 10:17:31.020
+*** SESSION ID:(32.37) 2012-04-17 10:17:31.020
+ktsmgtur(): TUR was not tuned for 34435 secs

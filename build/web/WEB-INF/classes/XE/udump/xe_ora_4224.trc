@@ -1,0 +1,54 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_4224.trc
+Thu Jan 26 12:56:05 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2087M/2998M, Ph+PgF:4156M/5995M, VA:1104M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 4224, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-01-26 12:56:05.399
+*** SESSION ID:(38.1) 2012-01-26 12:56:05.399
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2012-01-26 12:56:12.700
+Thread 1 checkpoint: logseq 540, block 2, scn 12874181
+  cache-low rba: logseq 540, block 26525
+    on-disk rba: logseq 540, block 30357, scn 12884196
+  start recovery at logseq 540, block 26525, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 1916Kb in 1.01s => 1.85 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 12Kb, moves: 0/6642 (0%)
+Change moves: 12/68 (17%), moved: 0Mb
+Longest LWN: 675Kb, moves: 0/197 (0%), moved: 0Mb
+Last redo scn: 0x0000.00c498e3 (12884195)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 286/285 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 12953/13516 = 1.0
+----------------------------------------------
+*** 2012-01-26 12:56:13.917
+KCRA: start recovery claims for 286 data blocks
+*** 2012-01-26 12:56:14.151
+KCRA: blocks processed = 286/286, claimed = 286, eliminated = 0
+*** 2012-01-26 12:56:14.947
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 540 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 286/285 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 10310/13234 = 0.8
+----------------------------------------------

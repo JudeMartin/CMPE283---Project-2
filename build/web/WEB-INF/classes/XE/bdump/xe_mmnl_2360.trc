@@ -1,0 +1,22 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmnl_2360.trc
+Wed Jun 08 18:28:12 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2069M/2998M, Ph+PgF:4390M/5995M, VA:1099M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 12
+
+Windows thread id: 2360, image: ORACLE.EXE (MMNL)
+
+
+*** 2011-06-08 18:28:12.360
+*** SERVICE NAME:(SYS$BACKGROUND) 2011-06-08 18:28:12.344
+*** SESSION ID:(39.1) 2011-06-08 18:28:12.344
+ktsmg_advance_slot(): MMNL advances slot after 4294961107 seconds

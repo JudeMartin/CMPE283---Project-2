@@ -1,0 +1,43 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_1044.trc
+Wed Apr 13 23:15:12 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2057M/2998M, Ph+PgF:4392M/5995M, VA:1132M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 22
+
+Windows thread id: 1044, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-04-13 23:15:12.398
+*** SESSION ID:(27.67) 2011-04-13 23:15:12.398
+*** 2011-04-13 23:15:12.398 60679 kcrr.c
+ARCH: Archival disabled due to shutdown: 1089
+*** 2011-04-13 23:15:13.412 60679 kcrr.c
+ARCH: Archival disabled due to shutdown: 1089
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2441M/2998M, Ph+PgF:5248M/5995M, VA:1160M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 0
+
+Windows thread id: 1044, image: ORACLE.EXE (SHAD)
+
+
+KCCDEBUG_LEVEL = 0
+Running with 1 strand for Non-Enterprise Edition
+Running without dynamic strand for Non-Enterprise Edition
+Dynamic strand is set to FALSE
+Running with 1 shared and 10 private strand(s). Zero-copy redo is FALSE

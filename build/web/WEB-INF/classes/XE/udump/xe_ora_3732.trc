@@ -1,0 +1,106 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3732.trc
+Mon Apr 18 22:22:23 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2331M/2998M, Ph+PgF:4544M/5995M, VA:1113M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3732, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-04-18 22:22:23.162
+*** SESSION ID:(38.1) 2011-04-18 22:22:23.162
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 30, block 2, scn 869890
+  cache-low rba: logseq 30, block 2704
+    on-disk rba: logseq 30, block 2897, scn 872120
+  start recovery at logseq 30, block 2704, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 96Kb in 0.67s => 0.14 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 1Kb, moves: 0/340 (0%)
+Change moves: 14/88 (15%), moved: 0Mb
+Longest LWN: 30Kb, moves: 0/36 (0%), moved: 0Mb
+Last redo scn: 0x0000.000d4eb7 (872119)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 28/28 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 482/843 = 0.6
+----------------------------------------------
+*** 2011-04-18 22:22:29.184
+KCRA: start recovery claims for 28 data blocks
+*** 2011-04-18 22:22:29.231
+KCRA: blocks processed = 28/28, claimed = 28, eliminated = 0
+*** 2011-04-18 22:22:29.496
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 30 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 28/28 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 336/508 = 0.7
+----------------------------------------------
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3732.trc
+Sun Jan 29 12:21:29 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2116M/2998M, Ph+PgF:4225M/5995M, VA:1105M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 39
+
+Windows thread id: 3732, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-01-29 12:21:29.228
+*** SESSION ID:(38.1) 2012-01-29 12:21:29.228
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 548, block 2, scn 13073564
+  cache-low rba: logseq 548, block 1282
+    on-disk rba: logseq 548, block 1903, scn 13075086
+  start recovery at logseq 548, block 1282, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 310Kb in 0.61s => 0.50 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 2Kb, moves: 0/886 (0%)
+Change moves: 14/128 (10%), moved: 0Mb
+Longest LWN: 23Kb, moves: 0/213 (0%), moved: 0Mb
+Last redo scn: 0x0000.00c7828d (13075085)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 38/38 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1495/1845 = 0.8
+----------------------------------------------
+*** 2012-01-29 12:21:34.733
+KCRA: start recovery claims for 38 data blocks
+*** 2012-01-29 12:21:34.764
+KCRA: blocks processed = 38/38, claimed = 38, eliminated = 0
+*** 2012-01-29 12:21:34.905
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 548 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 38/38 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1107/1532 = 0.7
+----------------------------------------------

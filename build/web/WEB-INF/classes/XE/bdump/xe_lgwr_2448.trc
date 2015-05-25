@@ -1,0 +1,72 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_lgwr_2448.trc
+Thu Aug 04 10:24:02 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2297M/2998M, Ph+PgF:4559M/5995M, VA:1090M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 6
+
+Windows thread id: 2448, image: ORACLE.EXE (LGWR)
+
+
+*** 2011-08-04 10:24:02.212
+*** SERVICE NAME:() 2011-08-04 10:24:02.196
+*** SESSION ID:(45.1) 2011-08-04 10:24:02.196
+Media recovery not enabled or manual archival only 0x10000
+Maximum redo generation record size = 156160 bytes
+Maximum redo generation change vector size = 150672 bytes
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_lgwr_2448.trc
+Mon Aug 22 09:51:10 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2368M/2998M, Ph+PgF:4616M/5995M, VA:1090M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 6
+
+Windows thread id: 2448, image: ORACLE.EXE (LGWR)
+
+
+*** 2011-08-22 09:51:10.618
+*** SERVICE NAME:() 2011-08-22 09:51:10.587
+*** SESSION ID:(45.1) 2011-08-22 09:51:10.587
+Media recovery not enabled or manual archival only 0x10000
+Maximum redo generation record size = 156160 bytes
+Maximum redo generation change vector size = 150672 bytes
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_lgwr_2448.trc
+Sat Feb 04 13:30:13 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2100M/2998M, Ph+PgF:4117M/5995M, VA:1082M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 6
+
+Windows thread id: 2448, image: ORACLE.EXE (LGWR)
+
+
+*** 2012-02-04 13:30:13.018
+*** SERVICE NAME:() 2012-02-04 13:30:12.564
+*** SESSION ID:(45.1) 2012-02-04 13:30:12.564
+Media recovery not enabled or manual archival only 0x10000
+Maximum redo generation record size = 156160 bytes
+Maximum redo generation change vector size = 150672 bytes

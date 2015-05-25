@@ -1,0 +1,44 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmnl_2928.trc
+Tue Feb 21 21:21:10 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1344M/2998M, Ph+PgF:3379M/5995M, VA:1093M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 12
+
+Windows thread id: 2928, image: ORACLE.EXE (MMNL)
+
+
+*** 2012-02-21 21:21:10.851
+*** SERVICE NAME:(SYS$BACKGROUND) 2012-02-21 21:21:10.789
+*** SESSION ID:(39.1) 2012-02-21 21:21:10.789
+ktsmgtur(): TUR was not tuned for 943 secs
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmnl_2928.trc
+Mon Apr 09 17:55:21 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1364M/2998M, Ph+PgF:3411M/5995M, VA:1079M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 12
+
+Windows thread id: 2928, image: ORACLE.EXE (MMNL)
+
+
+*** 2012-04-09 17:55:21.736
+*** SERVICE NAME:(SYS$BACKGROUND) 2012-04-09 17:55:21.663
+*** SESSION ID:(39.1) 2012-04-09 17:55:21.663
+ktsmgtur(): TUR was not tuned for 311 secs

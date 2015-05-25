@@ -1,0 +1,26 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmon_2788.trc
+Wed Sep 07 00:05:38 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1480M/2998M, Ph+PgF:3802M/5995M, VA:1101M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 11
+
+Windows thread id: 2788, image: ORACLE.EXE (MMON)
+
+
+*** 2011-09-07 00:05:38.672
+*** SERVICE NAME:(SYS$BACKGROUND) 2011-09-07 00:05:35.503
+*** SESSION ID:(40.1) 2011-09-07 00:05:35.503
+ktsmgtur(): TUR was not tuned for 2680 secs
+ktsmg_advance_slot(): MMNL advances slot after 2901 seconds
+*** 2011-09-07 22:39:27.515
+ktsmgtur(): TUR was not tuned for 78404 secs
+ktsmg_advance_slot(): MMNL advances slot after 78733 seconds

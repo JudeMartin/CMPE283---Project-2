@@ -1,0 +1,107 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2856.trc
+Sun Sep 25 19:03:12 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2343M/2998M, Ph+PgF:4590M/5995M, VA:1112M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2856, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-09-25 19:03:12.510
+*** SESSION ID:(38.1) 2011-09-25 19:03:12.510
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 324, block 2, scn 7738379
+  cache-low rba: logseq 324, block 953
+    on-disk rba: logseq 324, block 1480, scn 7739819
+  start recovery at logseq 324, block 953, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 263Kb in 0.45s => 0.57 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 2Kb, moves: 0/851 (0%)
+Change moves: 12/108 (11%), moved: 0Mb
+Longest LWN: 66Kb, moves: 0/111 (0%), moved: 0Mb
+Last redo scn: 0x0000.007619aa (7739818)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 43/43 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1447/1766 = 0.8
+----------------------------------------------
+*** 2011-09-25 19:03:17.081
+KCRA: start recovery claims for 43 data blocks
+*** 2011-09-25 19:03:17.081
+KCRA: blocks processed = 43/43, claimed = 43, eliminated = 0
+*** 2011-09-25 19:03:17.112
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 324 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 43/43 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1112/1488 = 0.7
+----------------------------------------------
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2856.trc
+Sat Oct 29 22:48:52 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2341M/2998M, Ph+PgF:4591M/5995M, VA:1112M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2856, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-10-29 22:48:52.509
+*** SESSION ID:(38.1) 2011-10-29 22:48:52.509
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 401, block 2, scn 9588179
+  cache-low rba: logseq 401, block 40629
+    on-disk rba: logseq 401, block 40890, scn 9593951
+  start recovery at logseq 401, block 40629, scn 0
+*** 2011-10-29 22:49:02.578
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 130Kb in 4.79s => 0.03 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 2Kb, moves: 0/465 (0%)
+Change moves: 9/100 (9%), moved: 0Mb
+Longest LWN: 78Kb, moves: 0/23 (0%), moved: 0Mb
+Last redo scn: 0x0000.0092645e (9593950)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 36/36 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 707/1036 = 0.7
+----------------------------------------------
+*** 2011-10-29 22:49:05.608
+KCRA: start recovery claims for 36 data blocks
+*** 2011-10-29 22:49:05.608
+KCRA: blocks processed = 36/36, claimed = 36, eliminated = 0
+*** 2011-10-29 22:49:05.618
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 401 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 36/36 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 595/742 = 0.8
+----------------------------------------------

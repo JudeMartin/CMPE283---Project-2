@@ -1,0 +1,53 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2744.trc
+Sat Sep 03 22:02:03 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2377M/2998M, Ph+PgF:4637M/5995M, VA:1112M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2744, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-09-03 22:02:02.957
+*** SESSION ID:(38.1) 2011-09-03 22:02:02.957
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 275, block 2, scn 6596988
+  cache-low rba: logseq 275, block 50345
+    on-disk rba: logseq 275, block 67226, scn 6611733
+  start recovery at logseq 275, block 50345, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 8440Kb in 0.65s => 12.68 Mb/sec
+Total physical reads: 12288Kb
+Longest record: 22Kb, moves: 0/25167 (0%)
+Change moves: 1/20 (5%), moved: 0Mb
+Longest LWN: 627Kb, moves: 2/394 (0%), moved: 0Mb
+Last redo scn: 0x0000.0064e314 (6611732)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 1327/1313 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 49823/51215 = 1.0
+----------------------------------------------
+*** 2011-09-03 22:02:09.556
+KCRA: start recovery claims for 1327 data blocks
+*** 2011-09-03 22:02:11.818
+KCRA: blocks processed = 1327/1327, claimed = 1327, eliminated = 0
+*** 2011-09-03 22:02:11.942
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 275 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 1327/1313 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 47818/51136 = 0.9
+----------------------------------------------

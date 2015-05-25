@@ -1,0 +1,54 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3836.trc
+Mon Jan 09 15:38:21 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2134M/2998M, Ph+PgF:4294M/5995M, VA:1110M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3836, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-01-09 15:38:21.826
+*** SESSION ID:(38.1) 2012-01-09 15:38:21.826
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2012-01-09 15:38:28.818
+Thread 1 checkpoint: logseq 507, block 2, scn 12059774
+  cache-low rba: logseq 507, block 10028
+    on-disk rba: logseq 507, block 11083, scn 12068177
+  start recovery at logseq 507, block 10028, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 527Kb in 2.36s => 0.22 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 14Kb, moves: 0/715 (0%)
+Change moves: 1/21 (4%), moved: 0Mb
+Longest LWN: 261Kb, moves: 0/32 (0%), moved: 0Mb
+Last redo scn: 0x0000.00b82550 (12068176)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 244/241 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1215/1501 = 0.8
+----------------------------------------------
+*** 2012-01-09 15:38:31.228
+KCRA: start recovery claims for 244 data blocks
+*** 2012-01-09 15:38:31.228
+KCRA: blocks processed = 244/244, claimed = 244, eliminated = 0
+*** 2012-01-09 15:38:31.858
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 507 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 244/241 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 1078/1455 = 0.7
+----------------------------------------------

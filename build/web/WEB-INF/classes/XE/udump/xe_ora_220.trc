@@ -1,0 +1,54 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_220.trc
+Wed Jan 25 15:43:19 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2093M/2998M, Ph+PgF:4148M/5995M, VA:1105M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 220, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-01-25 15:43:19.744
+*** SESSION ID:(38.1) 2012-01-25 15:43:19.744
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2012-01-25 15:43:26.265
+Thread 1 checkpoint: logseq 539, block 2, scn 12847934
+  cache-low rba: logseq 539, block 29351
+    on-disk rba: logseq 539, block 30392, scn 12854179
+  start recovery at logseq 539, block 29351, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 520Kb in 1.30s => 0.39 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 21Kb, moves: 0/570 (0%)
+Change moves: 1/21 (4%), moved: 0Mb
+Longest LWN: 240Kb, moves: 0/41 (0%), moved: 0Mb
+Last redo scn: 0x0000.00c423a2 (12854178)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 248/247 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 989/1284 = 0.8
+----------------------------------------------
+*** 2012-01-25 15:43:27.778
+KCRA: start recovery claims for 248 data blocks
+*** 2012-01-25 15:43:28.121
+KCRA: blocks processed = 248/248, claimed = 248, eliminated = 0
+*** 2012-01-25 15:43:29.307
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 539 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 248/247 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 995/1235 = 0.8
+----------------------------------------------

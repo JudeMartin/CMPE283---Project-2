@@ -1,0 +1,54 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3232.trc
+Tue Jan 17 22:05:07 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2166M/2998M, Ph+PgF:4318M/5995M, VA:1111M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3232, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-01-17 22:05:07.427
+*** SESSION ID:(38.1) 2012-01-17 22:05:07.427
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2012-01-17 22:05:16.288
+Thread 1 checkpoint: logseq 523, block 2, scn 12454749
+  cache-low rba: logseq 523, block 37814
+    on-disk rba: logseq 523, block 38059, scn 12460448
+  start recovery at logseq 523, block 37814, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 122Kb in 0.26s => 0.46 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 2Kb, moves: 0/421 (0%)
+Change moves: 9/102 (8%), moved: 0Mb
+Longest LWN: 54Kb, moves: 0/39 (0%), moved: 0Mb
+Last redo scn: 0x0000.00be219f (12460447)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 45/45 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 603/900 = 0.7
+----------------------------------------------
+*** 2012-01-17 22:05:17.957
+KCRA: start recovery claims for 45 data blocks
+*** 2012-01-17 22:05:17.957
+KCRA: blocks processed = 45/45, claimed = 45, eliminated = 0
+*** 2012-01-17 22:05:18.098
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 523 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 45/45 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 604/648 = 0.9
+----------------------------------------------

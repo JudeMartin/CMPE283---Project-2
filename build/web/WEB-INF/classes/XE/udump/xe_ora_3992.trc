@@ -1,0 +1,24 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3992.trc
+Fri Apr 22 19:42:36 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2039M/2998M, Ph+PgF:4325M/5995M, VA:1132M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3992, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-04-22 19:42:36.175
+*** SESSION ID:(29.5) 2011-04-22 19:42:36.175
+*** 2011-04-22 19:42:36.175 60679 kcrr.c
+ARCH: Archival disabled due to shutdown: 1089
+*** 2011-04-22 19:42:37.204 60679 kcrr.c
+ARCH: Archival disabled due to shutdown: 1089

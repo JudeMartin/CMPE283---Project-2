@@ -1,0 +1,54 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3456.trc
+Fri Apr 15 19:30:04 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2161M/2998M, Ph+PgF:4370M/5995M, VA:1114M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3456, image: ORACLE.EXE (SHAD)
+
+
+*** 2011-04-15 19:30:04.168
+*** SERVICE NAME:() 2011-04-15 19:30:04.166
+*** SESSION ID:(38.1) 2011-04-15 19:30:04.166
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 16, block 2, scn 559625
+  cache-low rba: logseq 16, block 1367
+    on-disk rba: logseq 16, block 2304, scn 561509
+  start recovery at logseq 16, block 1367, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 468Kb in 0.35s => 1.31 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 10Kb, moves: 0/691 (0%)
+Change moves: 11/76 (14%), moved: 0Mb
+Longest LWN: 228Kb, moves: 0/53 (0%), moved: 0Mb
+Last redo scn: 0x0000.00089164 (561508)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 215/215 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1046/1541 = 0.7
+----------------------------------------------
+*** 2011-04-15 19:30:11.264
+KCRA: start recovery claims for 215 data blocks
+*** 2011-04-15 19:30:11.264
+KCRA: blocks processed = 215/215, claimed = 215, eliminated = 0
+*** 2011-04-15 19:30:11.520
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 16 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 215/215 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1250/1261 = 1.0
+----------------------------------------------

@@ -1,0 +1,178 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_s002_4208.trc
+Thu Jan 26 14:45:00 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1374M/2998M, Ph+PgF:2281M/5995M, VA:1042M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 16
+
+Windows thread id: 4208, image: ORACLE.EXE (S002)
+
+
+*** 2012-01-26 14:45:00.097
+*** ACTION NAME:(PAGE 2110) 2012-01-26 14:45:00.050
+*** MODULE NAME:(APEX:APPLICATION 4500) 2012-01-26 14:45:00.050
+*** SERVICE NAME:(SYS$USERS) 2012-01-26 14:45:00.050
+*** CLIENT ID:(SYSTEM:1095775637322051) 2012-01-26 14:45:00.035
+*** SESSION ID:(23.6) 2012-01-26 14:45:00.035
+Memory Notification: Library Cache Object loaded into SGA
+Heap size 5186K exceeds notification threshold (2048K)
+LIBRARY OBJECT HANDLE: handle=3997efa0 mutex=3997F054(0)
+name=
+SELECT /*+rule*/ SYS_XMLGEN(VALUE(KU$), XMLFORMAT.createFormat2('TABLE_T', '7')), KU$.OBJ_NUM FROM SYS.KU$_FHTABLE_VIEW KU$ WHERE NOT (BITAND (KU$.PROPERTY,8192)=8192) AND  NOT BITAND(KU$.SCHEMA_OBJ.FLAGS,128)!=0 AND  KU$.SCHEMA_OBJ.OWNER_NAME=:SCHEMA1 AND   KU$.SCHEMA_OBJ.NAME IN ('OFFERS_DETAIL')
+hash=690786e4f69e3be1f5a3bb979c75cc6c timestamp=01-26-2012 14:44:56
+namespace=CRSR flags=RON/KGHP/TIM/KEP/PN0/LRG/DBN/[10010045]
+kkkk-dddd-llll=0001-0001-0001 lock=N pin=0 latch#=2 hpc=0002 hlc=0002
+lwt=3997EFFC[3997EFFC,3997EFFC] ltm=3997F004[3997F004,3997F004]
+pwt=3997EFE0[3997EFE0,3997EFE0] ptm=3997EFE8[3997EFE8,3997EFE8]
+ref=3997F01C[3997F01C,3997F01C] lnd=3997F028[3997E6A8,3997FC08]
+  LIBRARY OBJECT: object=394b9a38
+  type=CRSR flags=EXS[0001] pflags=[0000] status=VALD load=0
+  CHILDREN: size=16
+  child#    table reference   handle
+  ------ -------- --------- --------
+       0 394b99c4  394b9678 3997ee5c
+  DATA BLOCKS:
+  data#     heap  pointer    status pins change whr alloc(K)  size(K)
+  ----- -------- -------- --------- ---- ------ --- -------- --------
+      0 3997ef30 394b9ad0 I/P/A/-/-    0 NONE   00      0.67     1.05
+LIBRARY OBJECT HANDLE: handle=3997ee5c mutex=3997EF10(0)
+namespace=CRSR flags=RON/KGHP/PN0/[10010000]
+kkkk-dddd-llll=0000-0041-0041 lock=N pin=X latch#=2 hpc=0002 hlc=0002
+lwt=3997EEB8[3997EEB8,3997EEB8] ltm=3997EEC0[3997EEC0,3997EEC0]
+pwt=3997EE9C[3997EE9C,3997EE9C] ptm=3997EEA4[3997EEA4,3997EEA4]
+ref=3997EED8[394B9678,394B9678] lnd=3997EEE4[3997EEE4,3997EEE4]
+  LIBRARY OBJECT: object=394b91d8
+  type=CRSR flags=EXS[0001] pflags=NST[0001] status=VALD load=0
+  DEPENDENCIES: count=104 size=112
+  dependency#    table reference   handle position flags
+  ----------- -------- --------- -------- -------- -------------------
+            0 394b9020  394b8ca0 3997eca4      103 DEP[01]
+            1 394b9020  394b8cd4 3fb07cf4      229 DEP[01]
+            2 394b9020  394b8d08 3fb0ea5c       80 DEP[01]
+            3 394b9020  394b8d3c 398d1d20       46 DEP[01]
+            4 394b9020  394b8e60 3fb03c94       27 DEP[01]
+            5 394b9020  394b8e94 3fb06834      122 DEP[01]
+            6 394b9020  394b8ec8 3997e4c8     1132 DEP[01]
+            7 394b9020  394b8efc 398d1fd0      946 DEP[01]
+            8 394b9020  394b8f30 398d2128      765 DEP[01]
+            9 394b9020  394b8f64 398d2280      584 DEP[01]
+           10 394b9020  394b8f98 3997e778      988 DEP[01]
+           11 394b9020  394b8fcc 398d1bc8       72 DEP[01]
+           12 394b9020  394b9530 3fb05d34       87 DEP[01]
+           13 394b9020  394b1b34 398d1a70       57 DEP[01]
+           14 394b9020  394b1b68 3fb093a4      306 DEP[01]
+           15 394b9020  394b1b9c 398d1918      869 DEP[01]
+           16 394b1f00  394b1bd0 398d17c0      219 DEP[01]
+           17 394b1f00  394b1c04 398cd1b4       72 DEP[01]
+           18 394b1f00  394b1c38 3fb04754      270 DEP[01]
+           19 394b1f00  394b1c6c 3faaf284       96 DEP[01]
+           20 394b1f00  394b1ca0 3faaabf8     1237 DEP[01]
+           21 394b1f00  394b1cd4 3fab124c      345 DEP[01]
+           22 394b1f00  394b1d08 398d1668     1719 DEP[01]
+           23 394b1f00  394b1d3c 3997e370      817 DEP[01]
+           24 394b1f00  394b1d70 398eef0c       99 DEP[01]
+           25 394b1f00  394b1da4 398cbec0      332 DEP[01]
+           26 394b1f00  394b1dd8 3fafdcb4      376 DEP[01]
+           27 394b1f00  394b1e0c 398cb4fc       64 DEP[01]
+           28 394b1f00  394b1e40 398cb3a4      193 DEP[01]
+           29 394b1f00  394b1e74 3fab4734      362 DEP[01]
+           30 394b1f00  394b1ea8 3fafe764      147 DEP[01]
+           31 394b1f00  394aed24 3fae2bcc      583 DEP[01]
+           32 394af0f0  394aed58 398cb24c      367 DEP[01]
+           33 394af0f0  394aed8c 398d13b8      426 DEP[01]
+           34 394af0f0  394aedc0 3fb00154      139 DEP[01]
+           35 394af0f0  394aedf4 3997ca84      888 DEP[01]
+           36 394af0f0  394aee28 3997e218      729 DEP[01]
+           37 394af0f0  394aee5c 3faaef10      147 DEP[01]
+           38 394af0f0  394aee90 39939f04      580 DEP[01]
+           39 394af0f0  394aeec4 3fab3c88      249 DEP[01]
+           40 394af0f0  394aeef8 3997c92c     1373 DEP[01]
+           41 394af0f0  394aef2c 3fab511c      620 DEP[01]
+           42 394af0f0  394aef60 39939010      452 DEP[01]
+           43 394af0f0  394aef94 3997c7d4     2594 DEP[01]
+           44 394af0f0  394aefc8 39938430      205 DEP[01]
+           45 394af0f0  394aeffc 3fa6ad04      551 DEP[01]
+           46 394af0f0  394af030 3b5398c0      530 DEP[01]
+           47 394af0f0  394af064 3997e0c0       25 DEP[01]
+           48 394af0a4  394a3914 3997df68       25 DEP[01]
+           49 394af0a4  394a3948 3997c67c     2822 DEP[01]
+           50 394af0a4  394a397c 3fb05264      290 DEP[01]
+           51 394af0a4  394a39b0 3997de10     2158 DEP[01]
+           52 394af0a4  394a39e4 3997dcb8     1162 DEP[01]
+           53 394af0a4  394a3a18 3fab33f8     1048 DEP[01]
+           54 394af0a4  394a3a4c 39935058      611 DEP[01]
+           55 394af0a4  394a3a80 398d1260      661 DEP[01]
+           56 394af0a4  394a3ab4 398d1108      485 DEP[01]
+           57 394af0a4  394a3ae8 398c9b20      933 DEP[01]
+           58 394af0a4  394a3b1c 398d0fb0     1794 DEP[01]
+           59 394af0a4  394a3b50 398d0e58     1550 DEP[01]
+           60 394af0a4  394a3b84 398d0d00     1090 DEP[01]
+           61 394af0a4  394a3bb8 398d0ba8      222 DEP[01]
+           62 394af0a4  394a3bec 398c9220       80 DEP[01]
+           63 394af0a4  394a3c20 398c90c8      987 DEP[01]
+           64 394a3ce0  394a3c74 398f263c       27 DEP[01]
+           65 394a3ce0  39495c2c 398c8f70     1214 DEP[01]
+           66 394a3ce0  39495c60 398c6f14      166 DEP[01]
+           67 394a3ce0  39495c94 3fa8b930      647 DEP[01]
+           68 394a3ce0  39495cc8 398f1d08        0 DEP[01]
+           69 394a3ce0  39495cfc 3fae72c0        0 DEP[01]
+           70 394a3ce0  39495d50 398c8e18     1448 DEP[01]
+           71 394a3ce0  39495d84 3f95bac4       84 DEP[01]
+           72 394a3ce0  39495db8 398c8cc0     1698 DEP[01]
+           73 394a3ce0  39495dec 398c8b68     2182 DEP[01]
+           74 394a3ce0  39495e20 398c5768      940 DEP[01]
+           75 394a3ce0  39495e54 398d0a50      887 DEP[01]
+           76 394a3ce0  39495e88 398d08f8      657 DEP[01]
+           77 394a3ce0  39495ebc 398d07a0      212 DEP[01]
+           78 394a3ce0  39495ef0 398c5610       67 DEP[01]
+           79 394a3ce0  39495f24 3f95b96c       95 DEP[01]
+           80 39495fac  39495f58 398c54b8      285 DEP[01]
+           81 39495fac  394957fc 398c3988       95 DEP[01]
+           82 39495fac  39495830 398c5360      506 DEP[01]
+           83 39495fac  39495864 3fab0cbc      938 DEP[01]
+           84 39495fac  39495898 398c2f00      877 DEP[01]
+           85 39495fac  394958cc 398c5208      730 DEP[01]
+           86 39495fac  39495900 3faafafc     1286 DEP[01]
+           87 39495fac  39495934 398d0648      516 DEP[01]
+           88 39495fac  39495968 398c2478      362 DEP[01]
+           89 39495fac  3949599c 3fab0374      393 DEP[01]
+           90 39495fac  394959d0 398d00e8     3022 DEP[01]
+           91 39495fac  39495a04 3b73de3c       19 DEP[01]
+           92 39495fac  39495a38 398d04f0      842 DEP[01]
+           93 39495fac  39495a6c 3997db60     1023 DEP[01]
+           94 39495fac  39495aa0 3fab1ff8     1644 DEP[01]
+           95 39495fac  39495ad4 39934f00      710 DEP[01]
+           96 39495bc8  39495b08 39933a20     1373 DEP[01]
+           97 39495bc8  39495b3c 398d0398     3039 DEP[01]
+           98 39495bc8  39495b70 398c08b4      460 DEP[01]
+           99 39495bc8  3949043c 398d0240      411 DEP[01]
+          100 39495bc8  39490470 398c075c      262 DEP[01]
+          101 39495bc8  394904a4 398bec3c       40 DEP[01]
+          102 39495bc8  394904d8 398be594       40 DEP[01]
+          103 39495bc8  3949050c 398be1c0       40 DEP[01]
+  READ ONLY DEPENDENCIES: count=1 size=16
+  dependency#    table reference   handle flags
+  ----------- -------- --------- -------- -------------------
+            0 394b9594  394b9314 3997efa0 /ROD/KPP[60]
+  ACCESSES: count=2 size=16
+  dependency# types
+  ----------- -----
+          103 000c
+            0 0009
+  TRANSLATIONS: count=1 size=16
+  original    final
+  -------- --------
+  398be594 398be1c0
+  DATA BLOCKS:
+  data#     heap  pointer    status pins change whr alloc(K)  size(K)
+  ----- -------- -------- --------- ---- ------ --- -------- --------
+      0 3997edec 394b9328 I/P/A/-/-    0 NONE   00     12.08    13.34
+      6 394b8b8c 3869a01c I/P/A/-/-    1 NONE   00   5186.35  5186.61

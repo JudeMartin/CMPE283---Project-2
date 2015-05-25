@@ -1,0 +1,38 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_s000_2704.trc
+Sat Oct 15 15:32:34 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1490M/2998M, Ph+PgF:3682M/5995M, VA:1092M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 14
+
+Windows thread id: 2704, image: ORACLE.EXE (S000)
+
+
+*** 2011-10-15 15:32:34.503
+*** SERVICE NAME:(SYS$USERS) 2011-10-15 15:32:34.473
+*** SESSION ID:(27.43) 2011-10-15 15:32:34.473
+Memory Notification: Library Cache Object loaded into SGA
+Heap size 2209K exceeds notification threshold (2048K)
+LIBRARY OBJECT HANDLE: handle=3b458dd8 mutex=3B458E8C(0)
+name=XDB.XDbD/PLZ01TcHgNAgAIIegtw== 
+hash=e0f82b0c545a707da230a62675d34c80 timestamp=02-07-2006 22:42:01
+namespace=XDBS flags=KGHP/TIM/SML/[02000000]
+kkkk-dddd-llll=0000-0000-0000 lock=S pin=S latch#=5 hpc=0002 hlc=0002
+lwt=3B458E34[3B458E34,3B458E34] ltm=3B458E3C[3B458E3C,3B458E3C]
+pwt=3B458E18[3B458E18,3B458E18] ptm=3B458E20[3B458E20,3B458E20]
+ref=3B458E54[3B458E54,3B458E54] lnd=3B458E60[3B458E60,3B458E60]
+  LIBRARY OBJECT: object=3a25c040
+  type=XDBS flags=EXS/LOC[0005] pflags=[0000] status=VALD load=X
+  DATA BLOCKS:
+  data#     heap  pointer    status pins change whr alloc(K)  size(K)
+  ----- -------- -------- --------- ---- ------ --- -------- --------
+      0 3b458d68 3a25c0fc I/P/A/-/-    0 NONE   00      0.34     1.05
+      1 3a25c138 3a226da4 I/P/A/-/-    1 NONE   00   2209.79  2222.91

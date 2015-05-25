@@ -1,0 +1,72 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmnl_2660.trc
+Wed Apr 27 09:35:41 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2245M/2998M, Ph+PgF:4353M/5995M, VA:1082M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 12
+
+Windows thread id: 2660, image: ORACLE.EXE (MMNL)
+
+
+*** 2011-04-27 09:35:41.545
+*** SERVICE NAME:(SYS$BACKGROUND) 2011-04-27 09:35:40.952
+*** SESSION ID:(39.1) 2011-04-27 09:35:40.952
+ktsmgtur(): TUR was not tuned for 34646 secs
+ktsmg_advance_slot(): MMNL advances slot after 34926 seconds
+*** 2011-04-27 10:15:47.324
+ktsmgtur(): TUR was not tuned for 521 secs
+*** 2011-04-27 10:47:14.392
+ktsmgtur(): TUR was not tuned for 1099 secs
+ktsmg_advance_slot(): MMNL advances slot after 1420 seconds
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmnl_2660.trc
+Thu Oct 13 21:17:01 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2185M/2998M, Ph+PgF:4147M/5995M, VA:1101M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 12
+
+Windows thread id: 2660, image: ORACLE.EXE (MMNL)
+
+
+*** 2011-10-13 21:17:01.968
+*** SERVICE NAME:(SYS$BACKGROUND) 2011-10-13 21:17:01.515
+*** SESSION ID:(39.1) 2011-10-13 21:17:01.515
+ktsmgtur(): TUR was not tuned for 934 secs
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_mmnl_2660.trc
+Sun Mar 04 19:38:57 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1466M/2998M, Ph+PgF:3612M/5995M, VA:1091M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 12
+
+Windows thread id: 2660, image: ORACLE.EXE (MMNL)
+
+
+*** 2012-03-04 19:38:57.735
+*** SERVICE NAME:(SYS$BACKGROUND) 2012-03-04 19:38:57.698
+*** SESSION ID:(39.1) 2012-03-04 19:38:57.698
+ktsmgtur(): TUR was not tuned for 531 secs

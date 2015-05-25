@@ -1,0 +1,198 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_s000_3020.trc
+Mon Jan 16 14:39:21 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:1687M/2998M, Ph+PgF:3838M/5995M, VA:1099M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 14
+
+Windows thread id: 3020, image: ORACLE.EXE (S000)
+
+
+*** 2012-01-16 14:39:21.410
+*** SERVICE NAME:(SYS$USERS) 2012-01-16 14:39:21.410
+*** SESSION ID:(26.12) 2012-01-16 14:39:21.410
+Memory Notification: Library Cache Object loaded into SGA
+Heap size 2211K exceeds notification threshold (2048K)
+LIBRARY OBJECT HANDLE: handle=3bb46e58 mutex=3BB46F0C(0)
+name=XDB.XDbD/PLZ01TcHgNAgAIIegtw== 
+hash=e0f82b0c545a707da230a62675d34c80 timestamp=02-07-2006 22:42:01
+namespace=XDBS flags=KGHP/TIM/SML/[02000000]
+kkkk-dddd-llll=0000-0000-0000 lock=S pin=S latch#=5 hpc=0002 hlc=0002
+lwt=3BB46EB4[3BB46EB4,3BB46EB4] ltm=3BB46EBC[3BB46EBC,3BB46EBC]
+pwt=3BB46E98[3BB46E98,3BB46E98] ptm=3BB46EA0[3BB46EA0,3BB46EA0]
+ref=3BB46ED4[3BB46ED4,3BB46ED4] lnd=3BB46EE0[3BB46EE0,3BB46EE0]
+  LIBRARY OBJECT: object=3bd70258
+  type=XDBS flags=EXS/LOC[0005] pflags=[0000] status=VALD load=X
+  DATA BLOCKS:
+  data#     heap  pointer    status pins change whr alloc(K)  size(K)
+  ----- -------- -------- --------- ---- ------ --- -------- --------
+      0 3bb46de8 3bd70314 I/P/A/-/-    0 NONE   00      0.34     1.05
+      1 3bd70350 3bd3ac1c I/P/A/-/-    1 NONE   00   2211.58  2224.64
+*** 2012-01-16 14:41:56.818
+*** ACTION NAME:(PAGE 2110) 2012-01-16 14:41:56.818
+*** MODULE NAME:(APEX:APPLICATION 4500) 2012-01-16 14:41:56.818
+*** SERVICE NAME:(SYS$USERS) 2012-01-16 14:41:56.818
+*** CLIENT ID:(SYSTEM:3418220643426984) 2012-01-16 14:41:56.818
+*** SESSION ID:(26.14) 2012-01-16 14:41:56.818
+Memory Notification: Library Cache Object loaded into SGA
+Heap size 5186K exceeds notification threshold (2048K)
+LIBRARY OBJECT HANDLE: handle=3b84ba84 mutex=3B84BB38(0)
+name=
+SELECT /*+rule*/ SYS_XMLGEN(VALUE(KU$), XMLFORMAT.createFormat2('TABLE_T', '7')), KU$.OBJ_NUM FROM SYS.KU$_FHTABLE_VIEW KU$ WHERE NOT (BITAND (KU$.PROPERTY,8192)=8192) AND  NOT BITAND(KU$.SCHEMA_OBJ.FLAGS,128)!=0 AND  KU$.SCHEMA_OBJ.OWNER_NAME=:SCHEMA1 AND   KU$.SCHEMA_OBJ.NAME IN ('OFFERS_DETAIL')
+hash=690786e4f69e3be1f5a3bb979c75cc6c timestamp=01-16-2012 14:41:55
+namespace=CRSR flags=RON/KGHP/TIM/KEP/PN0/LRG/DBN/[10010045]
+kkkk-dddd-llll=0001-0001-0001 lock=N pin=0 latch#=2 hpc=0002 hlc=0002
+lwt=3B84BAE0[3B84BAE0,3B84BAE0] ltm=3B84BAE8[3B84BAE8,3B84BAE8]
+pwt=3B84BAC4[3B84BAC4,3B84BAC4] ptm=3B84BACC[3B84BACC,3B84BACC]
+ref=3B84BB00[3B84BB00,3B84BB00] lnd=3B84BB0C[3B84B18C,3B939438]
+  LIBRARY OBJECT: object=3a22a270
+  type=CRSR flags=EXS[0001] pflags=[0000] status=VALD load=0
+  CHILDREN: size=16
+  child#    table reference   handle
+  ------ -------- --------- --------
+       0 3a22a1fc  3a229eb0 3b84b940
+  DATA BLOCKS:
+  data#     heap  pointer    status pins change whr alloc(K)  size(K)
+  ----- -------- -------- --------- ---- ------ --- -------- --------
+      0 3b84ba14 3a22a308 I/P/A/-/-    0 NONE   00      0.67     1.05
+LIBRARY OBJECT HANDLE: handle=3b84b940 mutex=3B84B9F4(0)
+namespace=CRSR flags=RON/KGHP/PN0/[10010000]
+kkkk-dddd-llll=0000-0041-0041 lock=N pin=X latch#=2 hpc=0002 hlc=0002
+lwt=3B84B99C[3B84B99C,3B84B99C] ltm=3B84B9A4[3B84B9A4,3B84B9A4]
+pwt=3B84B980[3B84B980,3B84B980] ptm=3B84B988[3B84B988,3B84B988]
+ref=3B84B9BC[3A229EB0,3A229EB0] lnd=3B84B9C8[3B84B9C8,3B84B9C8]
+  LIBRARY OBJECT: object=3a229a10
+  type=CRSR flags=EXS[0001] pflags=NST[0001] status=VALD load=0
+  DEPENDENCIES: count=104 size=112
+  dependency#    table reference   handle position flags
+  ----------- -------- --------- -------- -------- -------------------
+            0 3a229858  3a2294d8 3b84b788      103 DEP[01]
+            1 3a229858  3a22950c 3fb0b6c0      229 DEP[01]
+            2 3a229858  3a229540 3fb12408       80 DEP[01]
+            3 3a229858  3a229574 3b88a774       46 DEP[01]
+            4 3a229858  3a229698 3fb07660       27 DEP[01]
+            5 3a229858  3a2296cc 3fb0a200      122 DEP[01]
+            6 3a229858  3a229700 3b84afac     1132 DEP[01]
+            7 3a229858  3a229734 3b88aa24      946 DEP[01]
+            8 3a229858  3a229768 3b88ab7c      765 DEP[01]
+            9 3a229858  3a22979c 3b88acd4      584 DEP[01]
+           10 3a229858  3a2297d0 3b84b25c      988 DEP[01]
+           11 3a229858  3a229804 3b88a61c       72 DEP[01]
+           12 3a229858  3a229d68 3fb09700       87 DEP[01]
+           13 3a229858  3a22236c 3b88a4c4       57 DEP[01]
+           14 3a229858  3a2223a0 3fb0cd70      306 DEP[01]
+           15 3a229858  3a2223d4 3b88a36c      869 DEP[01]
+           16 3a222738  3a222408 3b88a214      219 DEP[01]
+           17 3a222738  3a22243c 3b8859ec       72 DEP[01]
+           18 3a222738  3a222470 3fb08120      270 DEP[01]
+           19 3a222738  3a2224a4 3faafcf8       96 DEP[01]
+           20 3a222738  3a2224d8 3faab66c     1237 DEP[01]
+           21 3a222738  3a22250c 3fab1ac0      345 DEP[01]
+           22 3a222738  3a222540 3b88a0bc     1719 DEP[01]
+           23 3a222738  3a222574 3b84ae54      817 DEP[01]
+           24 3a222738  3a2225a8 3b92eab4       99 DEP[01]
+           25 3a222738  3a2225dc 3b8846f8      332 DEP[01]
+           26 3a222738  3a222610 3fb01660      376 DEP[01]
+           27 3a222738  3a222644 3b883d34       64 DEP[01]
+           28 3a222738  3a222678 3b883bdc      193 DEP[01]
+           29 3a222738  3a2226ac 3fab4fa8      362 DEP[01]
+           30 3a222738  3a2226e0 3fb02110      147 DEP[01]
+           31 3a222738  3a21f55c 3fae2bc8      583 DEP[01]
+           32 3a21f928  3a21f590 3b883a84      367 DEP[01]
+           33 3a21f928  3a21f5c4 3b889e0c      426 DEP[01]
+           34 3a21f928  3a21f5f8 3fb03b00      139 DEP[01]
+           35 3a21f928  3a21f62c 3b965d90      888 DEP[01]
+           36 3a21f928  3a21f660 3b84acfc      729 DEP[01]
+           37 3a21f928  3a21f694 3faaf984      147 DEP[01]
+           38 3a21f928  3a21f6c8 3b965614      580 DEP[01]
+           39 3a21f928  3a21f6fc 3fab44fc      249 DEP[01]
+           40 3a21f928  3a21f730 3b965c38     1373 DEP[01]
+           41 3a21f928  3a21f764 3fab5990      620 DEP[01]
+           42 3a21f928  3a21f798 3b9646c0      452 DEP[01]
+           43 3a21f928  3a21f7cc 3b965ae0     2594 DEP[01]
+           44 3a21f928  3a21f800 3b963ae0      205 DEP[01]
+           45 3a21f928  3a21f834 3fa6b060      551 DEP[01]
+           46 3a21f928  3a21f868 3bb37d68      530 DEP[01]
+           47 3a21f928  3a21f89c 3b84aba4       25 DEP[01]
+           48 3a21f8dc  3a21414c 3b84aa4c       25 DEP[01]
+           49 3a21f8dc  3a214180 3b965988     2822 DEP[01]
+           50 3a21f8dc  3a2141b4 3fb08c30      290 DEP[01]
+           51 3a21f8dc  3a2141e8 3b84a8f4     2158 DEP[01]
+           52 3a21f8dc  3a21421c 3b84a79c     1162 DEP[01]
+           53 3a21f8dc  3a214250 3fab3c6c     1048 DEP[01]
+           54 3a21f8dc  3a214284 3b960708      611 DEP[01]
+           55 3a21f8dc  3a2142b8 3b889cb4      661 DEP[01]
+           56 3a21f8dc  3a2142ec 3b889b5c      485 DEP[01]
+           57 3a21f8dc  3a214320 3b882358      933 DEP[01]
+           58 3a21f8dc  3a214354 3b889a04     1794 DEP[01]
+           59 3a21f8dc  3a214388 3b8898ac     1550 DEP[01]
+           60 3a21f8dc  3a2143bc 3b889754     1090 DEP[01]
+           61 3a21f8dc  3a2143f0 3b8895fc      222 DEP[01]
+           62 3a21f8dc  3a214424 3b881a58       80 DEP[01]
+           63 3a21f8dc  3a214458 3b881900      987 DEP[01]
+           64 3a214518  3a2144ac 3b9321e4       27 DEP[01]
+           65 3a214518  3a206464 3b8817a8     1214 DEP[01]
+           66 3a214518  3a206498 3b87f74c      166 DEP[01]
+           67 3a214518  3a2064cc 3fa8bc8c      647 DEP[01]
+           68 3a214518  3a206500 3b9318b0        0 DEP[01]
+           69 3a214518  3a206534 3fae72bc        0 DEP[01]
+           70 3a214518  3a206588 3b881650     1448 DEP[01]
+           71 3a214518  3a2065bc 3b87ea28       84 DEP[01]
+           72 3a214518  3a2065f0 3b8814f8     1698 DEP[01]
+           73 3a214518  3a206624 3b8813a0     2182 DEP[01]
+           74 3a214518  3a206658 3b87d578      940 DEP[01]
+           75 3a214518  3a20668c 3b8894a4      887 DEP[01]
+           76 3a214518  3a2066c0 3b88934c      657 DEP[01]
+           77 3a214518  3a2066f4 3b8891f4      212 DEP[01]
+           78 3a214518  3a206728 3b87d420       67 DEP[01]
+           79 3a214518  3a20675c 3f9228a8       95 DEP[01]
+           80 3a2067e4  3a206790 3b87d2c8      285 DEP[01]
+           81 3a2067e4  3a206034 3b87b798       95 DEP[01]
+           82 3a2067e4  3a206068 3b87d170      506 DEP[01]
+           83 3a2067e4  3a20609c 3fab1530      938 DEP[01]
+           84 3a2067e4  3a2060d0 3b87ad10      877 DEP[01]
+           85 3a2067e4  3a206104 3b87d018      730 DEP[01]
+           86 3a2067e4  3a206138 3fab0440     1286 DEP[01]
+           87 3a2067e4  3a20616c 3b88909c      516 DEP[01]
+           88 3a2067e4  3a2061a0 3b87a288      362 DEP[01]
+           89 3a2067e4  3a2061d4 3fab0b88      393 DEP[01]
+           90 3a2067e4  3a206208 3b888b3c     3022 DEP[01]
+           91 3a2067e4  3a20623c 3b8fdfc0       19 DEP[01]
+           92 3a2067e4  3a206270 3b888f44      842 DEP[01]
+           93 3a2067e4  3a2062a4 3b84a644     1023 DEP[01]
+           94 3a2067e4  3a2062d8 3fab286c     1644 DEP[01]
+           95 3a2067e4  3a20630c 3b9605b0      710 DEP[01]
+           96 3a206400  3a206340 3b95f0d0     1373 DEP[01]
+           97 3a206400  3a206374 3b888dec     3039 DEP[01]
+           98 3a206400  3a2063a8 3b877a1c      460 DEP[01]
+           99 3a206400  3a200c74 3b888c94      411 DEP[01]
+          100 3a206400  3a200ca8 3b8778c4      262 DEP[01]
+          101 3a206400  3a200cdc 3b875da4       40 DEP[01]
+          102 3a206400  3a200d10 3b8756fc       40 DEP[01]
+          103 3a206400  3a200d44 3b875328       40 DEP[01]
+  READ ONLY DEPENDENCIES: count=1 size=16
+  dependency#    table reference   handle flags
+  ----------- -------- --------- -------- -------------------
+            0 3a229dcc  3a229b4c 3b84ba84 /ROD/KPP[60]
+  ACCESSES: count=2 size=16
+  dependency# types
+  ----------- -----
+          103 000c
+            0 0009
+  TRANSLATIONS: count=1 size=16
+  original    final
+  -------- --------
+  3b8756fc 3b875328
+  DATA BLOCKS:
+  data#     heap  pointer    status pins change whr alloc(K)  size(K)
+  ----- -------- -------- --------- ---- ------ --- -------- --------
+      0 3b84b8d0 3a229b60 I/P/A/-/-    0 NONE   00     12.08    13.34
+      6 3a2293c4 39bfde58 I/P/A/-/-    1 NONE   00   5186.35  5186.61

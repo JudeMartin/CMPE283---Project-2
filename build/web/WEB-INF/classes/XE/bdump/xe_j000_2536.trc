@@ -1,0 +1,27 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\bdump\xe_j000_2536.trc
+Wed Apr 27 10:46:55 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2259M/2998M, Ph+PgF:4281M/5995M, VA:1083M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 1
+
+Oracle process number: 23
+
+Windows thread id: 2536, image: ORACLE.EXE (J000)
+
+
+*** 2011-04-27 10:46:55.698
+*** ACTION NAME:(GATHER_STATS_JOB) 2011-04-27 10:46:55.682
+*** MODULE NAME:(DBMS_SCHEDULER) 2011-04-27 10:46:55.682
+*** SERVICE NAME:(SYS$USERS) 2011-04-27 10:46:55.682
+*** SESSION ID:(22.614) 2011-04-27 10:46:55.682
+ORA-20000: index "SYSTEM"."CUSTOMERS_PK"  or partition of such index is in unusable state
+*** 2011-04-27 10:46:55.713
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYSTEM"','"CUSTOMERS"','""', ...)
+ORA-20000: index "SYSTEM"."CUSTOMERS_PK"  or partition of such index is in unusable state

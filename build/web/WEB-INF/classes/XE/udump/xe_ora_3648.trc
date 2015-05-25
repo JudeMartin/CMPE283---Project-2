@@ -1,0 +1,52 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3648.trc
+Thu Apr 21 11:27:23 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2210M/2998M, Ph+PgF:4410M/5995M, VA:1114M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3648, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-04-21 11:27:23.110
+*** SESSION ID:(38.1) 2011-04-21 11:27:23.110
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 40, block 2, scn 1100820
+  cache-low rba: logseq 40, block 3
+    on-disk rba: logseq 40, block 22323, scn 1103820
+  start recovery at logseq 40, block 3, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 11160Kb in 0.56s => 19.46 Mb/sec
+Total physical reads: 12288Kb
+Longest record: 22Kb, moves: 0/33699 (0%)
+Longest LWN: 712Kb, moves: 2/650 (0%), moved: 0Mb
+Last redo scn: 0x0000.0010d7cb (1103819)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 1591/1556 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 66662/68165 = 1.0
+----------------------------------------------
+*** 2011-04-21 11:27:27.759
+KCRA: start recovery claims for 1591 data blocks
+*** 2011-04-21 11:27:29.881
+KCRA: blocks processed = 1591/1591, claimed = 1591, eliminated = 0
+*** 2011-04-21 11:27:30.037
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 40 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 1591/1556 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 68240/68165 = 1.0
+----------------------------------------------

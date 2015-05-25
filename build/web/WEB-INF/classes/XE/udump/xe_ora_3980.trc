@@ -1,0 +1,54 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3980.trc
+Sat Oct 29 13:16:11 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2248M/2998M, Ph+PgF:4391M/5995M, VA:1111M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3980, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-10-29 13:16:11.755
+*** SESSION ID:(38.1) 2011-10-29 13:16:11.755
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2011-10-29 13:16:19.474
+Thread 1 checkpoint: logseq 400, block 2, scn 9562098
+  cache-low rba: logseq 400, block 5280
+    on-disk rba: logseq 400, block 5384, scn 9568177
+  start recovery at logseq 400, block 5280, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 52Kb in 0.95s => 0.05 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 2Kb, moves: 0/179 (0%)
+Change moves: 10/95 (10%), moved: 0Mb
+Longest LWN: 8Kb, moves: 0/24 (0%), moved: 0Mb
+Last redo scn: 0x0000.0091ffb0 (9568176)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 31/31 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 149/447 = 0.3
+----------------------------------------------
+*** 2011-10-29 13:16:20.747
+KCRA: start recovery claims for 31 data blocks
+*** 2011-10-29 13:16:20.824
+KCRA: blocks processed = 31/31, claimed = 31, eliminated = 0
+*** 2011-10-29 13:16:20.998
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 400 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 31/31 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 133/178 = 0.7
+----------------------------------------------

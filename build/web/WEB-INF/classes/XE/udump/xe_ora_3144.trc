@@ -1,0 +1,54 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3144.trc
+Sun Jan 22 22:51:49 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2149M/2998M, Ph+PgF:4295M/5995M, VA:1111M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3144, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-01-22 22:51:49.016
+*** SESSION ID:(38.1) 2012-01-22 22:51:49.016
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2012-01-22 22:51:59.822
+Thread 1 checkpoint: logseq 532, block 2, scn 12683785
+  cache-low rba: logseq 532, block 6751
+    on-disk rba: logseq 532, block 7958, scn 12688857
+  start recovery at logseq 532, block 6751, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 603Kb in 2.36s => 0.25 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 12Kb, moves: 0/871 (0%)
+Change moves: 2/23 (8%), moved: 0Mb
+Longest LWN: 258Kb, moves: 0/57 (0%), moved: 0Mb
+Last redo scn: 0x0000.00c19dd8 (12688856)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 268/268 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1493/1801 = 0.8
+----------------------------------------------
+*** 2012-01-22 22:52:02.186
+KCRA: start recovery claims for 268 data blocks
+*** 2012-01-22 22:52:02.186
+KCRA: blocks processed = 268/268, claimed = 268, eliminated = 0
+*** 2012-01-22 22:52:02.763
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 532 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 268/268 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1584/1759 = 0.9
+----------------------------------------------

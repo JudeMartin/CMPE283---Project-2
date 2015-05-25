@@ -1,0 +1,107 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3008.trc
+Sun Dec 04 22:25:01 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2218M/2998M, Ph+PgF:4411M/5995M, VA:1112M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3008, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-12-04 22:25:01.490
+*** SESSION ID:(38.1) 2011-12-04 22:25:01.490
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2011-12-04 22:25:12.689
+Thread 1 checkpoint: logseq 448, block 2, scn 10640584
+  cache-low rba: logseq 448, block 4131
+    on-disk rba: logseq 448, block 4250, scn 10644602
+  start recovery at logseq 448, block 4131, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 59Kb in 3.37s => 0.02 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 2Kb, moves: 0/206 (0%)
+Change moves: 13/126 (10%), moved: 0Mb
+Longest LWN: 10Kb, moves: 0/28 (0%), moved: 0Mb
+Last redo scn: 0x0000.00a26c77 (10644599)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 23/23 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 154/498 = 0.3
+----------------------------------------------
+*** 2011-12-04 22:25:18.071
+KCRA: start recovery claims for 23 data blocks
+*** 2011-12-04 22:25:18.071
+KCRA: blocks processed = 23/23, claimed = 23, eliminated = 0
+*** 2011-12-04 22:25:18.118
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 448 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 23/23 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 116/175 = 0.7
+----------------------------------------------
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_3008.trc
+Tue Dec 27 20:55:06 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2236M/2998M, Ph+PgF:4446M/5995M, VA:1111M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 3008, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-12-27 20:55:06.083
+*** SESSION ID:(38.1) 2011-12-27 20:55:06.083
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 483, block 2, scn 11494981
+  cache-low rba: logseq 483, block 17011
+    on-disk rba: logseq 483, block 19310, scn 11499995
+  start recovery at logseq 483, block 17011, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 1149Kb in 0.31s => 3.62 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 11Kb, moves: 0/1564 (0%)
+Change moves: 1/15 (6%), moved: 0Mb
+Longest LWN: 258Kb, moves: 0/76 (0%), moved: 0Mb
+Last redo scn: 0x0000.00af79da (11499994)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 406/405 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 2720/3176 = 0.9
+----------------------------------------------
+*** 2011-12-27 20:55:12.299
+KCRA: start recovery claims for 406 data blocks
+*** 2011-12-27 20:55:12.299
+KCRA: blocks processed = 406/406, claimed = 406, eliminated = 0
+*** 2011-12-27 20:55:12.899
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 483 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 406/405 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 2369/3123 = 0.8
+----------------------------------------------

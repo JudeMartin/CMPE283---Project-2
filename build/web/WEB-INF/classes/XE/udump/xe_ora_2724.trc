@@ -1,0 +1,214 @@
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2724.trc
+Sat Oct 15 10:59:41 2011
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2336M/2998M, Ph+PgF:4587M/5995M, VA:1114M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 39
+
+Windows thread id: 2724, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2011-10-15 10:59:41.822
+*** SESSION ID:(38.1) 2011-10-15 10:59:41.822
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 376, block 2, scn 8942108
+  cache-low rba: logseq 376, block 3182
+    on-disk rba: logseq 376, block 4606, scn 8945238
+  start recovery at logseq 376, block 3182, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 712Kb in 0.33s => 2.11 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 10Kb, moves: 0/1117 (0%)
+Change moves: 5/78 (6%), moved: 0Mb
+Longest LWN: 282Kb, moves: 0/98 (0%), moved: 0Mb
+Last redo scn: 0x0000.00887e55 (8945237)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 293/292 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1747/2196 = 0.8
+----------------------------------------------
+*** 2011-10-15 10:59:48.172
+KCRA: start recovery claims for 293 data blocks
+*** 2011-10-15 10:59:48.172
+KCRA: blocks processed = 293/293, claimed = 293, eliminated = 0
+*** 2011-10-15 10:59:48.718
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 376 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 2
+Average hash chain = 293/292 = 1.0
+Max compares per lookup = 2
+Avg compares per lookup = 1925/2038 = 0.9
+----------------------------------------------
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2724.trc
+Fri Feb 10 23:17:06 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2235M/2998M, Ph+PgF:4385M/5995M, VA:1105M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2724, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-02-10 23:17:06.649
+*** SESSION ID:(38.1) 2012-02-10 23:17:06.649
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+Thread 1 checkpoint: logseq 572, block 2, scn 13650107
+  cache-low rba: logseq 572, block 29115
+    on-disk rba: logseq 572, block 29352, scn 13660849
+  start recovery at logseq 572, block 29115, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 118Kb in 0.68s => 0.17 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 2Kb, moves: 0/411 (0%)
+Change moves: 12/89 (13%), moved: 0Mb
+Longest LWN: 62Kb, moves: 0/28 (0%), moved: 0Mb
+Last redo scn: 0x0000.00d072b0 (13660848)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 42/42 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 617/940 = 0.7
+----------------------------------------------
+*** 2012-02-10 23:17:11.454
+KCRA: start recovery claims for 42 data blocks
+*** 2012-02-10 23:17:11.454
+KCRA: blocks processed = 42/42, claimed = 42, eliminated = 0
+*** 2012-02-10 23:17:11.501
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 572 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 42/42 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 563/659 = 0.9
+----------------------------------------------
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2724.trc
+Sun Apr 15 18:40:33 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2239M/2998M, Ph+PgF:4412M/5995M, VA:1108M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2724, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-04-15 18:40:33.170
+*** SESSION ID:(38.1) 2012-04-15 18:40:33.170
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2012-04-15 18:40:46.774
+Thread 1 checkpoint: logseq 705, block 2, scn 16991724
+  cache-low rba: logseq 705, block 13962
+    on-disk rba: logseq 705, block 14947, scn 16995419
+  start recovery at logseq 705, block 13962, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 492Kb in 0.30s => 1.60 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 12Kb, moves: 0/620 (0%)
+Change moves: 1/26 (3%), moved: 0Mb
+Longest LWN: 237Kb, moves: 0/43 (0%), moved: 0Mb
+Last redo scn: 0x0000.0103545a (16995418)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 226/226 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1073/1327 = 0.8
+----------------------------------------------
+*** 2012-04-15 18:40:48.402
+KCRA: start recovery claims for 226 data blocks
+*** 2012-04-15 18:40:48.402
+KCRA: blocks processed = 226/226, claimed = 226, eliminated = 0
+*** 2012-04-15 18:40:48.762
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 705 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 226/226 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1287/1299 = 1.0
+----------------------------------------------
+Dump file c:\oraclexe\app\oracle\admin\xe\udump\xe_ora_2724.trc
+Mon Apr 16 22:32:53 2012
+ORACLE V10.2.0.1.0 - Production vsnsta=0
+vsnsql=14 vsnxtr=3
+Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
+Windows NT Version V6.1 
+CPU                 : 4 - type 586, 2 Physical Cores
+Process Affinity    : 0x00000000
+Memory (Avail/Total): Ph:2217M/2998M, Ph+PgF:4392M/5995M, VA:1108M/2047M
+Instance name: xe
+
+Redo thread mounted by this instance: 0 <none>
+
+Oracle process number: 18
+
+Windows thread id: 2724, image: ORACLE.EXE (SHAD)
+
+
+*** SERVICE NAME:() 2012-04-16 22:32:53.835
+*** SESSION ID:(38.1) 2012-04-16 22:32:53.835
+kccsga_update_ckpt: num_1 = 8, num_2 = 0, num_3 = 0, lbn_2 = 0, lbn_3 = 0
+*** 2012-04-16 22:33:06.424
+Thread 1 checkpoint: logseq 709, block 2, scn 17084582
+  cache-low rba: logseq 709, block 4177
+    on-disk rba: logseq 709, block 5261, scn 17087870
+  start recovery at logseq 709, block 4177, scn 0
+----- Redo read statistics for thread 1 -----
+Read rate (ASYNC): 542Kb in 1.92s => 0.28 Mb/sec
+Total physical reads: 4096Kb
+Longest record: 18Kb, moves: 0/612 (0%)
+Change moves: 2/30 (6%), moved: 0Mb
+Longest LWN: 254Kb, moves: 0/43 (0%), moved: 0Mb
+Last redo scn: 0x0000.0104bd7d (17087869)
+----------------------------------------------
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 270/270 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1043/1348 = 0.8
+----------------------------------------------
+*** 2012-04-16 22:33:10.122
+KCRA: start recovery claims for 270 data blocks
+*** 2012-04-16 22:33:10.122
+KCRA: blocks processed = 270/270, claimed = 270, eliminated = 0
+*** 2012-04-16 22:33:10.122
+Recovery of Online Redo Log: Thread 1 Group 2 Seq 709 Reading mem 0
+----- Recovery Hash Table Statistics ---------
+Hash table buckets = 32768
+Longest hash chain = 1
+Average hash chain = 270/270 = 1.0
+Max compares per lookup = 1
+Avg compares per lookup = 1306/1313 = 1.0
+----------------------------------------------
